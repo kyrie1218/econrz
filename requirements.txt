@@ -16,3 +16,4 @@ jieba
 mkdocs-print-site-plugin
 plantuml-markdown
 mkdocs-video
+md-tooltips
