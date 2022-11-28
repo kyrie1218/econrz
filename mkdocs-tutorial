@@ -1,0 +1,16 @@
+# mkdocs-web
+
+```pip
+
+pip freeze > requirements.txt
+
+conda create -n kyriecon python=3.8
+conda activate kyriecon
+conda deactivate
+
+proxychains pip install -r requirements.txt
+
+```
+
+
+
