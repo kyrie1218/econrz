@@ -17,3 +17,7 @@ mkdocs-print-site-plugin
 plantuml-markdown
 mkdocs-video
 md-tooltips
+mkdocs-exclude
+mkdocs-bibtex
+pypandoc
+mkdocs-simple-plugin

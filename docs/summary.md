@@ -4,6 +4,8 @@
 * [Literature](literature/README.md)
     * [Economic Growth](literature/economic_growth/README.md)
         * literature/economic_growth/*.md
+    * [Educational attainment](literature/education/README.md)
+        * literature/education/*.md
 * [Data Science](data_science/README.md)
     * [Know about data sources](data_science/data_source/README.md)
         * [CFPS](data_science/data_source/cfps.md)

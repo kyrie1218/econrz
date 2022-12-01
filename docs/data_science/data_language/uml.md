@@ -72,7 +72,23 @@ participant "CFPS family"
 <figcaption>CFPS </figcaption>
 </div>
 
+## Class diagram
 
+<div class="plantuml" align="center"  markdown>
+
+```plantuml 
+@startuml
+class CFPS{
+    import_rawData()
+    get_olgID()
+    match_personInfo()
+    build_finalData()
+}
+
+@enduml
+```
+<figcaption>CFPS </figcaption>
+</div>
 
 
 

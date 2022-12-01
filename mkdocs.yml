@@ -62,9 +62,9 @@ plugins:
         - en
   - section-index
   - print-site
-  # - bibtex:
-  #     bib_file: "reference.bib"
-  #     csl_file: "https://github.com/citation-style-language/styles/blob/master/american-journal-of-agricultural-economics.csl"
+  - minify
+  - bibtex:
+      bib_file: "reference.bib"
   - kroki  # md代码绘图
   - table-reader # 展示csv
   - markdown-exec
@@ -80,6 +80,9 @@ plugins:
       # binder_ui: "lab"
   - literate-nav:
       nav_file: summary.md 
+  - exclude:
+      glob:
+        - exclude/*
   
 
 
