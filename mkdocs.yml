@@ -74,10 +74,10 @@ plugins:
       execute: true
       timeout: 100
       allow_errors: true
-      # binder: true
-      # binder_service_name: "gh"
-      # binder_branch: "master"
-      # binder_ui: "lab"
+      binder: true
+      binder_service_name: "gh"
+      binder_branch: "master"
+      binder_ui: "lab"
   - literate-nav:
       nav_file: summary.md 
   - exclude:
