@@ -1,4 +1,5 @@
 mkdocs
+jupyter
 mkdocs-material
 mkdocs-add-number-plugin
 mkdocs-kroki-plugin==0.3.0
