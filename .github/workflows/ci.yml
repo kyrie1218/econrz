@@ -12,12 +12,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - uses: actions/setup-pandoc@v2
-        with:
-          pandoc-version: 2.19.2
+      - uses: actions/setup-haskell@v1
       - run: pandoc --version
-        env:
-          PATH: ${{ steps.setup-pandoc.outputs.pandoc-path }}
+      - run: stack install pandoc-2.19
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
 
