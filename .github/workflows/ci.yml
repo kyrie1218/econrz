@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - uses: actions/setup-pandoc@v1
+      - uses: actions/setup-pandoc@v2
         with:
           pandoc-version: 2.19.2
       - run: pandoc --version
