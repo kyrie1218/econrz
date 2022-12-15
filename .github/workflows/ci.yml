@@ -11,8 +11,13 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.x
-      - run: apt-get install pandoc
+          python-version: 3.9
+      - uses: actions/setup-pandoc@v1
+        with:
+          pandoc-version: 2.19.2
+      - run: pandoc --version
+        env:
+          PATH: ${{ steps.setup-pandoc.outputs.pandoc-path }}
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
 
