@@ -13,7 +13,6 @@ jobs:
         with:
           python-version: 3.9
       - uses: actions/setup-haskell@v1
-      - run: pandoc --version
       - run: stack install pandoc-2.19
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
