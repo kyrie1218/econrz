@@ -60,6 +60,10 @@ plugins:
   - search: # 文章搜索
       lang:
         - en
+  - bibtex:
+      bib_file: "reference.bib"
+      csl_file: "chicago-author-date-16th-edition.csl"
+      cite_inline: true
   - section-index
   - print-site
   - minify
@@ -67,10 +71,15 @@ plugins:
   #     bib_file: "reference.bib"
   - kroki  # md代码绘图
   - table-reader # 展示csv
+  # - macros
   - markdown-exec
+  # - nbconvert
+  #       input_dir: docs/notebooks
+  #       output_dir: notebooks
+  #       recursive: true
   - mknotebooks:
-      enable_default_jupyter_cell_styling: true
-      enable_default_pandas_dataframe_styling: true
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
       execute: true
       timeout: 100
       allow_errors: true
@@ -151,6 +160,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

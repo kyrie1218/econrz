@@ -76,4 +76,9 @@ print(buffer.getvalue())
 
 :octicons-heart-fill-24:{ .heart }
 
-\full_bibliography
+
+[@backhaus2021]
+
+[@zhang1995]
+
+

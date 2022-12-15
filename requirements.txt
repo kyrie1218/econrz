@@ -5,6 +5,7 @@ mkdocs-add-number-plugin
 mkdocs-kroki-plugin==0.3.0
 mkdocs-minify-plugin
 mkdocs-table-reader-plugin
+mkdocs-macros-plugin
 mkdocs-section-index
 mkdocs-literate-nav
 markdown_checklist
@@ -20,5 +21,5 @@ mkdocs-video
 md-tooltips
 mkdocs-exclude
 mkdocs-bibtex
-pypandoc
 mkdocs-simple-plugin
+
