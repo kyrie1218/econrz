@@ -17,6 +17,7 @@ matplotlib
 jieba
 mkdocs-print-site-plugin
 plantuml-markdown
+pypandoc
 mkdocs-video
 md-tooltips
 mkdocs-exclude
