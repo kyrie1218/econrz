@@ -22,7 +22,6 @@
     * economic_modelling/*.md
 * [English](scientific_english/README.md)
     * scientific_english/*.md
-* [Test](test.ipynb)
 * [Notebook](notebooks/README.md)
     * notebooks/*.ipynb
 <!-- * [Print-Site](print_page/) -->

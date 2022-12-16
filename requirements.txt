@@ -18,7 +18,6 @@ jieba
 mkdocs-print-site-plugin
 plantuml-markdown
 pypandoc_binary
-mkdocs-video
 md-tooltips
 mkdocs-exclude
 mkdocs-bibtex
