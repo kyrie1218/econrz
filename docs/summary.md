@@ -24,4 +24,5 @@
     * scientific_english/*.md
 * [Notebook](notebooks/README.md)
     * notebooks/*.ipynb
+    * notebooks/*.md
 <!-- * [Print-Site](print_page/) -->
