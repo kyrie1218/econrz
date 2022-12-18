@@ -10,6 +10,7 @@ mkdocs-section-index
 mkdocs-literate-nav
 markdown_checklist
 neoteroi-mkdocs
+nbconvert
 markdown-exec
 diagrams
 mknotebooks
