@@ -1,5 +1,6 @@
 mkdocs
 jupyter
+nbconvert
 mkdocs-material
 mkdocs-add-number-plugin
 mkdocs-kroki-plugin==0.3.0
@@ -10,7 +11,6 @@ mkdocs-section-index
 mkdocs-literate-nav
 markdown_checklist
 neoteroi-mkdocs
-nbconvert
 markdown-exec
 diagrams
 mknotebooks

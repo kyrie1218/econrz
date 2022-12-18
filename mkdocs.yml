@@ -72,7 +72,7 @@ plugins:
   - kroki  # md代码绘图
   - table-reader # 展示csv
   # - macros
-  - markdown-exec
+  # - markdown-exec
   # - nbconvert
   #       input_dir: docs/notebooks
   #       output_dir: notebooks
