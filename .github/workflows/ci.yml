@@ -13,6 +13,6 @@ jobs:
         with:
           python-version: 3.9
       - run: pip install -r requirements.txt
-      - run: jupyter nbconvert --to markdown ../../notebooks/*.ipynb
+      - run: jupyter nbconvert --to markdown notebooks/*.ipynb
       - run: mkdocs gh-deploy --force
 
