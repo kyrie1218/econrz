@@ -65,28 +65,27 @@ plugins:
       csl_file: "chicago-author-date-16th-edition.csl"
       cite_inline: true
   - section-index
-  - print-site
+  # - print-site
   - minify
-  # - bibtex:
-  #     bib_file: "reference.bib"
-  - kroki  # md代码绘图
-  - table-reader # 展示csv
+
+  # - kroki  # md代码绘图
+  # - table-reader # 展示csv
   # - macros
   # - markdown-exec
   # - nbconvert
   #       input_dir: docs/notebooks
   #       output_dir: notebooks
   #       recursive: true
-  - mknotebooks:
-      enable_default_jupyter_cell_styling: false
-      enable_default_pandas_dataframe_styling: false
-      execute: true
-      timeout: 100
-      allow_errors: true
-      # binder: true
-      # binder_service_name: "gh"
-      # binder_branch: "master"
-      # binder_ui: "lab"
+  # - mknotebooks:
+  #     enable_default_jupyter_cell_styling: false
+  #     enable_default_pandas_dataframe_styling: false
+  #     execute: true
+  #     timeout: 100
+  #     allow_errors: true
+  #     # binder: true
+  #     # binder_service_name: "gh"
+  #     # binder_branch: "master"
+  #     # binder_ui: "lab"
   - literate-nav:
       nav_file: summary.md 
   - exclude:
@@ -164,11 +163,11 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - plantuml_markdown:
-      server: http://www.plantuml.com/plantuml
-      format: svg_inline
-      theme: bluegray
-      encoding: utf-8 
+  # - plantuml_markdown:
+  #     server: http://www.plantuml.com/plantuml
+  #     format: svg_inline
+  #     theme: bluegray
+  #     encoding: utf-8 
 
 
 
