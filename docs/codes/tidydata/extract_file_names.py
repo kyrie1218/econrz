@@ -1,4 +1,4 @@
-from typing import Iterable, List, Tuple, Union, Generator
+from typing import Iterable, Tuple, Generator
 import os
 
 def extract_file_names(
