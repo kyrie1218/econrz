@@ -1,7 +1,6 @@
-mkdocs
 jupyter
 nbconvert
-mkdocs-material
+mkdocs-material==8.5.11
 mkdocs-add-number-plugin
 mkdocs-kroki-plugin==0.3.0
 mkdocs-minify-plugin
