@@ -70,7 +70,7 @@ plugins:
 
   # - kroki  # md代码绘图
   # - table-reader # 展示csv
-  # - macros
+  - macros
   # - markdown-exec
   # - nbconvert
   #       input_dir: docs/notebooks
