@@ -9,7 +9,7 @@
 ## Full codes
 === "Source"
     ```python title="core.py"
-    --8<-- "docs/codes/tidydata/core.py"
+    --8<-- "docs/codes/tidydata/sample/core.py"
     ```
 
 === "Result"
