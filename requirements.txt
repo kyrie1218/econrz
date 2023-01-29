@@ -1,9 +1,6 @@
-mkdocs
-jupyter
-nbconvert
 mkdocs-material
 mkdocs-add-number-plugin
-mkdocs-kroki-plugin==0.3.0
+mkdocs-kroki-plugin
 mkdocs-minify-plugin
 mkdocs-table-reader-plugin
 mkdocs-macros-plugin
