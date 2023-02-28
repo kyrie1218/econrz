@@ -1,5 +1,6 @@
 * [Home](README.md)
 * [Books](books/README.md)
+    * books/*.md
 * [Literature](literature/README.md)
     * literature/*.md
 * [Codes](codes/README.md)
